@@ -1,0 +1,147 @@
+body {
+    font-family: sans-serif; 
+    line-height: 1.6;        /* Espaciado entre líneas para lectura fácil */
+    margin: 0;               /* Elimina márgenes internos del navegador */
+    padding: 0; 
+    color: #adabab;          /* Color de texto gris claro */
+    background-color: #131618; /* Fondo general oscuro */
+    overflow-x: hidden;      /* Quitar el scroll horizontal */
+}
+
+/* Contenedor para centrar el contenido y limitar su ancho */
+.container {
+    max-width: 800px;        /* Ancho máximo del bloque de texto */
+    margin: 0 auto;          /* Centra el bloque horizontalmente */
+    padding: 20px;           /* Espacio de seguridad a los lados */
+}
+
+h1 { 
+    color: #ffffff;
+    text-align: center;      /* Centra el título principal */
+    border-bottom: 2px solid #eaecef; 
+    padding-bottom: 10px; 
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+h2 { 
+    color: #2dba4e;          
+    margin-top: 30px; 
+}
+
+p {
+    font-size: 18px;
+    margin-top: 0;       /* Elimina el espacio superior */
+    margin-bottom: 3px;  /* Controla el espacio entre párrafos (ajústalo a tu gusto) */
+    padding-bottom: 0;   /* Normalmente no necesitas padding si ya usas margin */
+}
+
+/* Bloques de código (comandos de Git) */
+code { 
+    background:#5f5f5f;
+    color: #fafbfc;
+    padding: 2px 5px; 
+    border-radius: 3px; 
+    font-family: monospace;  /* Fuente tipo consola */
+    font-size: 16px;
+}
+
+.highlight { 
+    background-color: #c2d9fc; 
+    color: #2b3137;
+    border-left: 4px solid #3c69a5; 
+    padding: 15px; 
+    margin: 20px 0; 
+    font-size: 18px;
+    border-radius: 0 5px 5px 0; /* Redondea solo el lado derecho */
+}
+
+.fecha { 
+    background-color: #cefcc2; 
+    color: #2b3137;
+    border-left: 4px solid #78a53c; 
+    padding: 15px; 
+    margin: 20px 0; 
+    font-size: 18px;
+    border-radius: 0 5px 5px 0;
+}
+
+figure {
+    margin: 30px 0;
+    text-align: center; 
+}
+
+figcaption {
+    font-size: 0.85rem; 
+    color: #8b949e;          
+    margin-top: 10px;
+    font-style: italic;
+}
+
+figcaption a {
+    color: #58a6ff;          
+    text-decoration: none;
+}
+
+figcaption a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;             /* Se extiende de borde a borde */
+    background-color: #24292e; 
+    color: #adabab; 
+    padding: 40px;         /* Espacio vertical */
+    text-align: center; 
+    margin-top: 60px;        /* Separa el footer del contenido final */
+    border-top: 1px solid #30363d;
+}
+
+.referencias ul {
+    list-style: none; /* Quita los puntos o números */
+    padding-left: 0;
+    color: #ffffff;
+}
+
+.referencias li {
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding-left: 2em;      /* Espacio para la sangría */
+    text-indent: -2em;     /* Simulación de sangría francesa APA */
+    color: #adabab;
+}
+
+.referencias em {
+    color: #ffffff;        /* Se resalta el título del libro/artículo en blanco */
+}
+
+a {
+    color: #5d90d1; 
+    text-decoration: none; /* Quita la línea subrayada que traen por defecto */
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #2dba4e; 
+  border: none;
+  cursor: pointer;
+  position: fixed; /* Mantiene el boton flotando en la pantalla */
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.1); /* Se agranda un poco al pasar el mouse */
+  background-color: #26a641;
+}
+
+.svgIcon {
+  width: 18px;
+  fill: white; /* Color de la flecha */
+}
