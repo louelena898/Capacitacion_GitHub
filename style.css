@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0; /* Elimina márgenes por defecto */
     scroll-behavior: smooth; /* Desplazamiento suave al hacer scroll */
@@ -34,6 +35,8 @@ header nav a {
     white-space: nowrap;     /* Evita que un link se rompa en dos líneas */
 }
 
+=======
+>>>>>>> 2571e7cc3f5458ded5a4b101aa0611e57d051c86
 body {
     font-family: sans-serif; 
     line-height: 1.6;        /* Espaciado entre líneas para lectura fácil */
