@@ -1,6 +1,6 @@
 *{
     margin: 0; /* Elimina márgenes por defecto */
-    scroll-behavior: smooth; /* Desplazamiento suave al hacer scroll */
+    scroll-behavior: smooth; /* Desplazamiento suave durante el scroll */
 }
 
 header {
